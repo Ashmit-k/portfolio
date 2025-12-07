@@ -16,24 +16,24 @@ export default function HeroSection() {
 
                         {/* Logo + Resume Button */}
                         <div className="flex items-center gap-6 sm:gap-8 mb-10">
-                                <div className="w-16 h-16 rounded-full bg-[#FF4500] flex items-center justify-center text-white text-5xl font-bricolage font-bold">
+                            <div className="w-16 h-16 rounded-full bg-[#FF4500] flex items-center justify-center text-white text-5xl font-bricolage font-bold">
                                 A
                             </div>
 
-                    <a
-  href="https://drive.google.com/uc?export=download&id=1__YQewl8cX_SBqkF6ir9okT4fzuGLLX7"
-  download
-  target="_blank"
-  rel="noopener noreferrer"
-  className="fill-btn font-afacad 
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=1__YQewl8cX_SBqkF6ir9okT4fzuGLLX7"
+                                download
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="fill-btn font-afacad 
              py-2 px-6 
              sm:py-3 sm:px-8 
              md:py-4 md:px-10 
              lg:py-5 lg:px-12"
->
-  <span className="btn-text text-base md:text-xl">Download PDF Resume</span>
-  <div className="fill-layer"></div>
-</a>
+                            >
+                                <span className="btn-text text-base md:text-xl">Download PDF Resume</span>
+                                <div className="fill-layer"></div>
+                            </a>
 
 
                         </div>
