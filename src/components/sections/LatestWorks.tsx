@@ -106,7 +106,7 @@ export default function LatestWorksSection() {
           <h2 className="text-4xl md:text-5xl font-bricolage font-bold text-black">
             Latest Works
           </h2>
-          <p className="text-xl font-semibold text-[#FF4500]">( 04 )</p>
+          <p className="text-xl font-semibold text-[#FF4500]">( 03 )</p>
         </div>
 
         {/* GRID */}
