@@ -5,11 +5,13 @@ import ContactSection from "@/components/sections/Contact";
 import Experience from "@/components/sections/Experience";
 import HeroSection from "@/components/sections/HeroSection";
 import LatestWorks from "@/components/sections/LatestWorks";
+import { SpringMouseFollow } from "@/components/ui/skiper-ui/skiper61";
 import { motion, useScroll } from "framer-motion";
 export default function Home() {
 
   const  scrollYProgress  = useScroll().scrollYProgress;
   return <>
+  <SpringMouseFollow />
     <motion.div
       style={
         {
@@ -17,7 +19,7 @@ export default function Home() {
         }
       }
       className="bg-[#FF4500] origin-left w-full h-[6px] z-100 top-0 left-0 fixed"
-    ></motion.div>
+      ></motion.div>
     <HeroSection />
     <Experience />
     <LatestWorks />

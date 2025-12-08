@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export default function AboutMeSection() {
   return (
+    
     <section className="relative bg-[#f0f0f0] py-10 md:py-32 overflow-hidden">
 
       {/* BACKGROUND IMAGE */}
