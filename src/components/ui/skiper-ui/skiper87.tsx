@@ -6,7 +6,7 @@ const Skiper87 = () => {
   return (
     <div className="bg-muted flex h-full w-full flex-col items-center justify-center gap-10">
       <div className="-mt-10 mb-20 grid content-start justify-items-center gap-6 text-center">
-        <span className="after:to-foreground relative max-w-[12ch] text-xs uppercase leading-tight opacity-40 after:absolute after:left-1/2 after:top-full after:h-16 after:w-px after:bg-gradient-to-b after:from-transparent after:content-['']">
+        <span className="after:to-foreground relative max-w-[12ch] text-xs uppercase leading-tight opacity-40 after:absolute after:left-1/2 after:top-full after:h-16 after:w-px after:bg-linear-to-b after:from-transparent after:content-['']">
           see the fade while scroll
         </span>
       </div>
